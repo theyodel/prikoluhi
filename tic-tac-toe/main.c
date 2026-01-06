@@ -29,7 +29,7 @@ int main() {
     struct player *players = NULL;
 
     while (1) {
-        printf("\n\n======= М Е Н Ю =======\n");
+        printf("\n\n======= МЕНЮ =======\n");
         printf("1. Начать игру\n");
         printf("2. Ввести нового игрока\n");
         printf("3. Получить статистику игрока\n");
