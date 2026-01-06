@@ -156,7 +156,7 @@ void runGame(int idCross, int idCircle, int *totalGames, struct player *players,
         players[circleIndex].win++;
         players[crossIndex].lose++;
     } else {  // Ничья
-        printf("НИЧЬЯ! Никто не победил.\n");
+        printf("НИЧЬЯ! Победила дружба!\n");
     }
     
     printf("\nСтатистика после игры:\n");
